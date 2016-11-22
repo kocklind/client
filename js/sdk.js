@@ -54,7 +54,7 @@ var SDK = {
 
     User: {
         create: function (data, cb) {
-            SDK.request({method: "GET", url:"/user/", data: data}, cb);
+            SDK.request({method: "POST", url:"/user/", data: data}, cb);
             alert("Når den her?");
 
         },
