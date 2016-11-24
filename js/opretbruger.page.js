@@ -15,8 +15,13 @@ $(document).ready(function () {
 
         }
 
+        if (user.firstName === "" || user.lastName === "" || user.userName === "" || user.email === "" || user.password === "") {
+
+            alert("Du mangler et felt, prøv igen")
+        }
+
         SDK.User.create(createUser, function (err, data) {
-            alert("hej");
+            alert(hej);
             if(err);
         })
 
