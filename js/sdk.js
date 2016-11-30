@@ -26,7 +26,10 @@ var SDK = {
                 headers: {filter: {include: ["authors", "publisher"]}}}, cb);
         },
         getCurriculum: function (data, cb) {
-            SDK.request({method: "POST", url: "/book", data: data, headers: {authorization: SDK.Storage.load("tokenId")}}, cb);
+            SDK.request(
+                {method: "GET",
+                    url: "/curriculum");
+
         }
     },
 

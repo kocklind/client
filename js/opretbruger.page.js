@@ -13,16 +13,17 @@ $(document).ready(function () {
             userType: true
 
 
-        }
+        };
 
-        if (user.firstName === "" || user.lastName === "" || user.userName === "" || user.email === "" || user.password === "") {
-
+        if(createUser.firstName ==="" || createUser.lastName ==="" || createUser.userName ==="" || createUser.email ==="" || createUser.password ==="") {
             alert("Du mangler et felt, prøv igen")
+            return
         }
 
         SDK.User.create(createUser, function (err, data) {
-            alert(hej);
-            if(err);
+            alert("Brugeren er nu oprettet");
+            window.location.href = "login.html";
+
         })
 
 
