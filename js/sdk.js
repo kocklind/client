@@ -18,6 +18,9 @@ var SDK = {
             }
         });
     },
+
+
+
     Book: {
         getAll: function (cb) {
             SDK.request({
@@ -25,12 +28,16 @@ var SDK = {
                 url: "/book",
                 headers: {filter: {include: ["authors", "publisher"]}}}, cb);
         },
-        getCurriculum: function (data, cb) {
-            SDK.request(
-                {method: "GET",
-                    url: "/curriculum");
 
-        }
+    },
+
+    Curriculum: {
+        getCurriculum: function (cb) {
+            SDK.request({
+                method: "GET",
+                url: "/curriculum"}, cb);
+        },
+
     },
 
     Login: function (username, password, cb) {
@@ -91,7 +98,7 @@ var SDK = {
 
 
 
-};
+}
 
 function encryptDecrypt(input) {
     var key = ['A', 'B', 'C'];
