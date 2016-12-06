@@ -33,11 +33,9 @@ var SDK = {
 
     Curriculum: {
         getCurriculum: function (cb) {
-            SDK.request({
-                method: "GET",
-                url: "/curriculum"}, cb);
-        },
-
+            SDK.request({method: "GET", url: "/curriculum"}, cb)
+            
+        }
     },
 
     Login: function (username, password, cb) {
@@ -53,9 +51,9 @@ var SDK = {
             //On login-error
             if (err) return cb(err);
 
-            SDK.Storage.persist("tokenId", data.id);
-            SDK.Storage.persist("userId", data.userId);
+            SDK.Storage.persist("token", data);
             SDK.Storage.persist("user", data.user);
+
 
             cb(null, data);
 
@@ -69,7 +67,7 @@ var SDK = {
 
         },
         current:function () {
-            return SDK.Storage.load("user");
+            return localStorage.getItem("user");
         }
     },
 
