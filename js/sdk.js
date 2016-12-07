@@ -42,6 +42,22 @@ var SDK = {
         }
     },
 
+    User: {
+        create: function (data, cb) {
+            SDK.request({method: "POST", url:"/user/", data: data}, cb);
+            alert("Når den her?");
+
+        },
+        current: function (user) {
+            return localStorage.getItem("user");
+        }
+    },
+
+    Logout: function () {
+      SDK.Storage.remove("token");
+        SDK.Storage.remove("user");
+    },
+
     Login: function (username, password, cb) {
         this.request({
             data: {
@@ -64,16 +80,9 @@ var SDK = {
         });
     },
 
-    User: {
-        create: function (data, cb) {
-            SDK.request({method: "POST", url:"/user/", data: data}, cb);
-            alert("Når den her?");
 
-        },
-        current:function () {
-            return localStorage.getItem("user");
-        }
-    },
+
+
 
     Storage: {
         prefix: "BookitSDK",

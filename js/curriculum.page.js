@@ -34,10 +34,10 @@ $(document).ready(function () {
                 var decrypted = encryptDecrypt(data);
                 decrypted = JSON.parse(decrypted);
 
-                var $CurriculumBookTableBody = $("#CurriculumBookTableBody");
+                var $CurriculumBookTable = $("#CurriculumBookTable");
                 decrypted.forEach(function (book, i) {
 
-                    $CurriculumBookTableBody.append(
+                    $CurriculumBookTable.append(
                         "<tr>" +
                         "<td>" + book.title + "</td>" +
                         "<td>" + book.author + "</td>" +
@@ -50,7 +50,7 @@ $(document).ready(function () {
 
                 });
                 $("#closeModal").on("click", function () {
-                    $("#CurriculumBookTableBody").children().remove()
+                    $("#CurriculumBookTable").children().remove()
                 });
             });
 
