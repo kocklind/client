@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d9a3c01-7585-4955-9678-b780e8cf46a4" name="Default" comment="Nu kan man se pensumlister fra hvert semester">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/settings.page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.html" />
+    <list default="true" id="0d9a3c01-7585-4955-9678-b780e8cf46a4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/curriculum.html" afterPath="$PROJECT_DIR$/curriculum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/curriculum.page.js" afterPath="$PROJECT_DIR$/js/curriculum.page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/login.page.js" afterPath="$PROJECT_DIR$/js/login.page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/sdk.js" afterPath="$PROJECT_DIR$/js/sdk.js" />
     </list>
     <ignored path="client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,8 +78,8 @@
       <file leaf-file-name="settings.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/settings.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+            <state relative-caret-position="450">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -392,7 +386,7 @@
       <workItem from="1479375473648" duration="11943000" />
       <workItem from="1479645401040" duration="2968000" />
       <workItem from="1479661177864" duration="8465000" />
-      <workItem from="1479733187384" duration="21556000" />
+      <workItem from="1479733187384" duration="21646000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1479801800022</created>
@@ -471,11 +465,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481098592768</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Nu kan man se pensumlister fra hvert semester. Kigger på current og settings">
+      <created>1481133301729</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1481133301732</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68381000" />
+    <option name="totallyTimeSpent" value="68471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1278" height="717" extended-state="6" />
@@ -518,7 +519,8 @@
     <MESSAGE value="Virker stadig ikke når jeg skal have forbindelse til db med curriculum . Har prøvet det meste nu, men uden held. Forsøger senere" />
     <MESSAGE value="Nu kan jeg se curriculum. Ændring på server gjorde udslaget" />
     <MESSAGE value="Nu kan man se pensumlister fra hvert semester" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nu kan man se pensumlister fra hvert semester" />
+    <MESSAGE value="Nu kan man se pensumlister fra hvert semester. Kigger på current og settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nu kan man se pensumlister fra hvert semester. Kigger på current og settings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -856,8 +858,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        <state relative-caret-position="450">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
           <folding />
         </state>
       </provider>
