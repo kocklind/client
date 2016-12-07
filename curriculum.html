@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<!-- Dette er en kommentar -->
+
+<body>
+
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Startside</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="login.html">Logud</a></li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="page-header">
+        <h1> Se bøger fra DIT semester </h1>
+    </div>
+
+    <table class="table">
+
+        <thead>
+        <th>Curriculum ID</th>
+        <th>School</th>
+        <th>Education</th>
+        <th>Semester</th>
+        <th>Tryk her</th>
+        </thead>
+
+        <tbody id="curriculumTableBody">
+        <tr></tr>
+
+        </tbody>
+    </table>
+
+</div>
+
+<div class="modal fade" id="visBooksModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Her kan du se dine bøger</h4>
+            </div>
+            <div class="modal-body">
+                <table class="table">
+                    <thead>
+                    <th>Titel</th>
+                    <th>Forfatter</th>
+                    <th>Udgiver</th>
+                    <th>Version</th>
+                    <th>Pris AB</th>
+                    <th>Pris SAXO</th>
+                    <th>Pris CDON</th>
+                    </thead>
+                    <tbody id="CurriculumBookTableBody"></tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal" id="closeModal">Luk</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="lib/js/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="lib/js/bootstrap.js"></script>
+<script type="text/javascript" src="js/curriculum.page.js"></script>
+<script type="text/javascript" src="js/sdk.js"></script>
+
+</body>
+
+</html>
