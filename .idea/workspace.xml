@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d9a3c01-7585-4955-9678-b780e8cf46a4" name="Default" comment="prøver at få det til at virke, men fejl på server. kigger på det">
+    <list default="true" id="0d9a3c01-7585-4955-9678-b780e8cf46a4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/sdk.js" afterPath="$PROJECT_DIR$/js/sdk.js" />
     </list>
@@ -29,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="366">
+              <caret line="44" column="90" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -81,28 +81,28 @@
       <file leaf-file-name="sdk.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/sdk.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+            <state relative-caret-position="244">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="curriculum.page.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="curriculum.page.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/curriculum.page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="300">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="curriculum.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="curriculum.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/curriculum.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="230">
+              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -165,9 +165,9 @@
         <option value="$PROJECT_DIR$/opretbruger.html" />
         <option value="$PROJECT_DIR$/js/opretbruger.page.js" />
         <option value="$PROJECT_DIR$/loggedin.html" />
-        <option value="$PROJECT_DIR$/js/curriculum.page.js" />
         <option value="$PROJECT_DIR$/js/sdk.js" />
         <option value="$PROJECT_DIR$/curriculum.html" />
+        <option value="$PROJECT_DIR$/js/curriculum.page.js" />
       </list>
     </option>
   </component>
@@ -385,7 +385,7 @@
       <workItem from="1479375473648" duration="11943000" />
       <workItem from="1479645401040" duration="2968000" />
       <workItem from="1479661177864" duration="8465000" />
-      <workItem from="1479733187384" duration="13965000" />
+      <workItem from="1479733187384" duration="15457000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1479801800022</created>
@@ -443,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480968526162</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Virker stadig ikke når jeg skal have forbindelse til db med curriculum . Har prøvet det meste nu, men uden held. Forsøger senere">
+      <created>1481044157619</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1481044157619</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60790000" />
+    <option name="totallyTimeSpent" value="62282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1278" height="717" extended-state="6" />
@@ -487,7 +494,8 @@
     <MESSAGE value="Nu er det ikke muligt at oprette brugere uden en værdi er indtastet" />
     <MESSAGE value="Get curriculum page oprettet" />
     <MESSAGE value="prøver at få det til at virke, men fejl på server. kigger på det" />
-    <option name="LAST_COMMIT_MESSAGE" value="prøver at få det til at virke, men fejl på server. kigger på det" />
+    <MESSAGE value="Virker stadig ikke når jeg skal have forbindelse til db med curriculum . Har prøvet det meste nu, men uden held. Forsøger senere" />
+    <option name="LAST_COMMIT_MESSAGE" value="Virker stadig ikke når jeg skal have forbindelse til db med curriculum . Har prøvet det meste nu, men uden held. Forsøger senere" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -805,32 +813,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/sdk.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/curriculum.page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="244">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="366">
+          <caret line="44" column="90" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="90" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/curriculum.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="230">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/curriculum.page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding />
         </state>
       </provider>
