@@ -36,8 +36,8 @@ var SDK = {
             SDK.request({method: "GET", url: "/curriculum"}, cb)
             
         },
-        getCurriculumBook: function (cb) {
-            SDK.request({method: "GET", url: "/curriculum/" + id+ "/books"}, cb)
+        getCurriculumBook: function (id, cb) {
+            SDK.request({method: "GET", url: "/curriculum/" + id+"/books"}, cb)
 
         }
     },

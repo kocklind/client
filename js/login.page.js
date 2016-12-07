@@ -19,7 +19,7 @@ $(document).ready(function () {
 
             //Login OK!
             alert("succes");
-            window.location.href = "loggedin.html";
+            window.location.href = "curriculum.html";
 
         });
 
