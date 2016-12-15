@@ -10,17 +10,20 @@ var SDK = {
             data: JSON.stringify(options.data),
             success: function (data, status, xhr) {
                 cb(null, data, status, xhr);
-                alert("Succes on Ajax!");
+                //alert("Succes on Ajax!");
             },
             error: function (xhr, status, errorThrown) {
                 cb({xhr: xhr, status: status, error: errorThrown});
-                alert("failure on Ajax!");
+                //alert("failure on Ajax!");
             }
         });
     },
 
 
+// SDK er den overordnede forbindelse mellem server og klient. Nedenfor kan du se alle de requests der sendes til serveren.
+    // Disse request er de funktioner som vi skal have hjælp fra serveren til at udføre.
 
+    //Lige under her, sender den et GET request for at få alle bøger frem. Det kan ses i url (/books)
     Book: {
         getAll: function (cb) {
             SDK.request({
@@ -30,7 +33,8 @@ var SDK = {
         },
 
     },
-
+// Her sendes der GET requests for at få pensum og pensumID. Dette bruges fordi den søger på et bestemt id på siden
+    // for at den kan ramme den rigtige sti på databsen og får vist den rigtige pensumliste
     Curriculum: {
         getCurriculum: function (cb) {
             SDK.request({method: "GET", url: "/curriculum"}, cb)
@@ -41,7 +45,7 @@ var SDK = {
 
         }
     },
-
+//Her er det et post request fordi den skal tilføje til databasen. Her er det opret bruger.
     User: {
         create: function (data, cb) {
             SDK.request({method: "POST", url:"/user/", data: data}, cb);
@@ -57,7 +61,7 @@ var SDK = {
       SDK.Storage.remove("token");
         SDK.Storage.remove("user");
     },
-
+//Her er funktionen til login
     Login: function (username, password, cb) {
         this.request({
             data: {
@@ -110,7 +114,7 @@ var SDK = {
 
 
 }
-
+//Dette er med til krypteringen fungerer
 function encryptDecrypt(input) {
     var key = ['A', 'B', 'C'];
     var out = "";

@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     $("#loginButton").on("click", function(e){
         e.preventDefault();
-
+//Javascript siden for login.
         var un = $("#inputUsername").val();
         var pw = $("#inputPassword").val();
 

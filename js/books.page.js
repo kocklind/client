@@ -1,10 +1,10 @@
 $(document).ready(function () {
 
-    //Fires on page-load
+    //Dette er forbindelsen mellem denne side og SDK'en
     SDK.Book.getAll(function(err, data){
         if(err) throw err;
 
-
+// her spiller den sammen med HTML dokumentet books.html hvor den sammenligner #bookstablebody samt kryptering.
         var decrypted = encryptDecrypt(data);
          decrypted = JSON.parse(decrypted);
 

@@ -1,3 +1,1 @@
-/**
- * Created by RuneKockLind on 07/12/2016.
- */
+//Meningen var at ændr bruger og slet bruger skulle være her.

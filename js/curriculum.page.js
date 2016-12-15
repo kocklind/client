@@ -1,11 +1,10 @@
 $(document).ready(function () {
 
-    //Fires on page-load
     SDK.Curriculum.getCurriculum(function (err, data) {
         if (err) {
             return
         }
-
+//Kryptering og sammenspil mellem SDK og HTML side.
         var decrypted = encryptDecrypt(data);
         decrypted = JSON.parse(decrypted);
 
